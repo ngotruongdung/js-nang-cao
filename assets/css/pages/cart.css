@@ -1,0 +1,36 @@
+.cart{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.cart h3{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.cart table{
+    width: 100%;
+}
+
+.cart table th{
+    text-align: left;
+    padding: 10px 0;
+}
+.cart table td img{
+    max-width: 100px;
+}
+
+.cart .total{
+    display: block;
+    margin: 30px 0;
+}
+
+.cart .btn-checkout{
+    padding: 15px 20px;
+    background: #fd7f28;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}

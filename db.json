@@ -1,0 +1,196 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Whiskey"
+    },
+    {
+      "name": "Champion",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Soju"
+    },
+    {
+      "id": 4,
+      "name": "Volka"
+    },
+    {
+      "id": 5,
+      "name": "Barrel Picks"
+    },
+    {
+      "id": 6,
+      "name": "Celebrity Spirits"
+    }
+  ],
+  "products": [
+    {
+      "name": "Bainbridge Battle Point Organic Wheat Whiskey 750ml",
+      "price": "299",
+      "image": "https://cdn.shopify.com/s/files/1/0313/6228/5699/products/Buy_Willet_4_Year_Rye_Online_720x_3695f88d-9c6e-4caa-8c65-aefff4be9403_medium.jpg?v=1597507256",
+      "detail": "A single-grain whiskey, fermented on estate-grown soft white wheat utilizing a unique combination of yeasts usually employed to make Irish and Scottish whiskies, double distilled and aged for 2 years in new, No.3 charred, ten gallon American white oak barrels.",
+      "cat_id": "1",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Bainbridge Cask Organic Wheat Whiskey 750ml",
+      "image": "https://cdn.shopify.com/s/files/1/0313/6228/5699/products/image_5dbcb53b-3d4a-4525-b82e-06c7f3058c09_720x.png?v=1631379423",
+      "price": 250,
+      "detail": "Selected barrels of fully-matured and ready-to-bottle Battle Point Whiskey are transferred to casks that formerly held 10 year old XO rum on the eastern Caribbean island of Barbados.",
+      "cat_id": 1
+    },
+    {
+      "name": "Absolut Vodka 750ml",
+      "image": "https://cdn.shopify.com/s/files/1/0313/6228/5699/products/image_dae3a740-bfdb-4b9f-832f-1612abf80ae8_720x.jpg?v=1629249257",
+      "price": "451",
+      "detail": "Absolut Vodka is a Swedish vodka made exclusively from natural ingredients, and unlike some other vodkas, it doesn’t contain any added sugar. In fact Absolut is as clean as vodka can be. Still, it has a certain taste: Rich, full-bodied and complex, yet smooth and mellow with a distinct character of grain, followed by a hint of dried fruit.",
+      "cat_id": "4",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Absolut Mandrin Vodka 750ml",
+      "image": "https://cdn.shopify.com/s/files/1/0313/6228/5699/products/ABSOLUT_CITRON_VODKA_750ML__91638.1553618834.1280.1280.jpg?v=1620677483",
+      "price": 90,
+      "detail": "Enjoy bright, summer sun, clear skies, and bold citrus flavors with Absolut Mandrin. Crafted in Ahus, Sweden, using fresh fruit, no added sugars, and locally sourced winter wheat with pure deep well water, Absolut Mandrin has all-natural ingredients.",
+      "cat_id": 4
+    },
+    {
+      "id": 5,
+      "name": "Belvedere Heritage 176 Vodka 750ml",
+      "image": "https://cdn.shopify.com/s/files/1/0313/6228/5699/products/ABSOLUT_VODKA_750ML__16867.1553621218.1280.1280.jpg?v=1620677483",
+      "price": 44,
+      "detail": "Belvedere Heritage 176 is quite simply a taste of vodka's past. Up until the 19th century. Polish vodka makers relied on the old technique of 'malting', using fire-kilns to liberate enzymes from the rye's starch - a tradition which also naturally revealed rich ad distinctive flavors. Over time, as the vodka category expanded and technology evolved, these traditions sadly faded out, and vodka became more associated with neutrality.",
+      "cat_id": 4
+    },
+    {
+      "id": 6,
+      "name": "Armand De Brignac Ace of Spades Blanc De Blanc 750ml",
+      "image": "//cdn.shopify.com/s/files/1/0313/6228/5699/products/image_a452af70-f0a5-4b8e-a41c-ebbed12ffdbc_1500x.jpg?v=1625855086",
+      "price": 900,
+      "detail": "Armand de Brignac Blanc de Blancs is pressed from an exclusive selection of white Chardonnay from famed Grand Cru villages including Cramant, Avize, and Oger.",
+      "cat_id": 2
+    },
+    {
+      "id": 7,
+      "name": "Armand De Brignac Ace of Spades Brut Gold 750ml",
+      "image": "//cdn.shopify.com/s/files/1/0313/6228/5699/products/ArmandBrut_1500x.jpg?v=1620677509",
+      "price": 200,
+      "detail": "The first release from Armand de Brignac, the Brut Gold remains the most iconic cuvée in the range. Rich with the old world traditions of champagne blending, it is a trio of vintages from some of the most lauded terroirs in the region, resulting in a prestige cuvée that expresses vibrant fresh fruit character, and layers of complexity.",
+      "cat_id": 2
+    },
+    {
+      "id": 8,
+      "name": "Knob Creek Single Barrel Select Barrel Pick 750ml",
+      "image": "//cdn.shopify.com/s/files/1/0313/6228/5699/products/KC_Straight_SBS_Bourbon_1927_HERO_V2_SITE_SHADOW_1500x.png?v=1640104642",
+      "price": 500,
+      "detail": "This Knob Creek® Single Barrel Experience, which is Selected By Fred Noe IV For 'Whiskey Revolution' bourbon is bottled with a customized engraved plate. Store materials allow customers to discover the story of their bourbon -- from its exact age, to where in the warehouse it was stored. It is bottled at 120 proof to",
+      "cat_id": 5
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "cus_name": "Ngô Trường Dũng",
+      "cus_add": "778/41 Thống Nhất, Gò Vấp",
+      "cus_email": "ngotruongdung122@gmail.com",
+      "cus_phone": "0862208620",
+      "creat_day": "11/1/2022",
+      "status": "Đang Giao Hàng"
+    },
+    {
+      "cus_name": "Ngô Thị Kỳ Duyên",
+      "cus_add": "Số 16 đường 79 phường Tân Quy Quận 7",
+      "cus_email": "ngotruongdungit@gmail.com",
+      "cus_phone": "0964143985",
+      "creat_day": "2022-01-16",
+      "status": "Đơn Hàng Mới",
+      "id": 2
+    },
+    {
+      "cus_name": "Ngô Thị Kỳ Duyên",
+      "cus_add": "Số 16 đường 79 phường Tân Quy Quận 78",
+      "cus_email": "ngotruongdungit@gmail.com",
+      "cus_phone": "0964143985",
+      "creat_day": "2022-01-16",
+      "status": "Đơn Hàng Mới",
+      "id": 3
+    },
+    {
+      "cus_name": "Ngô Thị Kỳ Duyên",
+      "cus_add": "Số 16 đường 79 phường Tân Quy Quận 7",
+      "cus_email": "laotulangfacebook@gmail.com",
+      "cus_phone": "0964143985",
+      "creat_day": "2022-01-20",
+      "status": "Đơn Hàng Mới",
+      "id": 4
+    },
+    {
+      "cus_name": "Ngô Trường Dũng",
+      "cus_add": "Số 16 đường 79 phường Tân Quy Quận 7",
+      "cus_email": "ngotruongdungit@gmail.com",
+      "cus_phone": "0964143985",
+      "creat_day": "2022-02-15",
+      "status": "Đơn Hàng Mới",
+      "id": 5
+    },
+    {
+      "cus_name": "Dũng Mua Hàng",
+      "cus_add": "Số 16 đường 79 phường Tân Quy Quận 7",
+      "cus_email": "ngotruongdungit@gmail.com",
+      "cus_phone": "0964143985",
+      "creat_day": "2022-02-22",
+      "status": "Đơn Hàng Mới",
+      "id": 6
+    }
+  ],
+  "orders-details": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 2,
+      "quantiny": 2,
+      "unti_price": 5000000
+    },
+    {
+      "id": 2,
+      "order_id": 1,
+      "product_id": 3,
+      "quantiny": 4,
+      "unti_price": 7000000
+    },
+    {
+      "order_id": 3,
+      "product_id": 5,
+      "unti_price": 1000,
+      "id": 3
+    },
+    {
+      "order_id": 3,
+      "product_id": 2,
+      "unti_price": 1100,
+      "id": 4
+    },
+    {
+      "order_id": 4,
+      "product_id": 1,
+      "unti_price": 1200,
+      "id": 5
+    },
+    {
+      "order_id": 5,
+      "product_id": 1,
+      "unti_price": 1200,
+      "id": 6
+    },
+    {
+      "order_id": 5,
+      "product_id": 2,
+      "unti_price": 1100,
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+    <title>Admin - PolyStor</title>
+    <link rel="icon" href="../images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- Boxicons CDN Link -->
+    <!-- <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="bx bxl-c-plus-plus icon"></i>
+        <div class="logo_name">PolyStor</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="#">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links_name">Trang Chủ</span>
+          </a>
+          <span class="tooltip">Trang Chủ</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-user"></i>
+            <span class="links_name">Khách hàng</span>
+          </a>
+          <span class="tooltip">Khách hàng</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-chat"></i>
+            <span class="links_name">Bình Luận</span>
+          </a>
+          <span class="tooltip">Bình Luận</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-pie-chart-alt-2"></i>
+            <span class="links_name">Thống Kê</span>
+          </a>
+          <span class="tooltip">Thống Kê</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-folder"></i>
+            <span class="links_name">Danh Mục</span>
+          </a>
+          <span class="tooltip">Danh Mục</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-cart-alt"></i>
+            <span class="links_name">Đơn Hàng</span>
+          </a>
+          <span class="tooltip">Đơn Hàng</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bxs-shopping-bag-alt"></i>
+            <span class="links_name">Sản Phẩm</span>
+          </a>
+          <span class="tooltip">Sản Phẩm</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-cog"></i>
+            <span class="links_name">Quản trị viên</span>
+          </a>
+          <span class="tooltip">Quản trị viên</span>
+        </li>
+        <li class="profile">
+          <div class="profile-details">
+            <i class="bx bx-log-out" id="log_out"></i>
+            <div class="name_job">
+              <div class="name">PolyStor</div>
+              <div class="job">Group Five Poly</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <div class="text">Dashboard</div>
+      <div class="dashboard-analytic">
+        <div class="dashboard-analytic-item">
+          <i class="bx bxs-shopping-bags"></i>
+          <div class="box">
+            <p>Sản Phẩm</p>
+            <span>100</span>
+          </div>
+        </div>
+
+        <div class="dashboard-analytic-item">
+          <i class="bx bx-message-alt-minus"></i>
+          <div class="box">
+            <p>Bình Luận</p>
+            <span>150</span>
+          </div>
+        </div>
+
+        <div class="dashboard-analytic-item">
+          <i class="bx bxs-cart"></i>
+          <div class="box">
+            <p>Đơn Hàng</p>
+            <span>190</span>
+          </div>
+        </div>
+
+        <div class="dashboard-analytic-item">
+          <i class="bx bx-user"></i>
+          <div class="box">
+            <p>Khách Hàng</p>
+            <span>90</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="list-product list-admin">
+        <h3>DANH SÁCH DANH MỤC</h3>
+        <table id="list-cat-admin">
+          <tr>
+            <!-- <th>ID Sản Phẩm</th> -->
+            <th>Tên Danh Mục</th>
+            <th>Thao Tác</th>
+          </tr>
+          <!-- </tr>
+            <tr>
+                <td>Tee-Shirt Blue V2</td>
+                <td><img src="../images/product-1.jpg" alt="" width="80"></td>
+                <td>180.000đ</td>
+                <td>20</td>
+                <td>M L XL</td>
+                <td>Xanh - Đỏ - Tím</td>
+                <td>
+                    <a href="" class="button-19">Sửa</a>
+                    <a href="" class="button-19">Xóa</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Tee-Shirt Blue V2</td>
+                <td><img src="../images/product-1.jpg" alt="" width="80"></td>
+                <td>180.000đ</td>
+                <td>20</td>
+                <td>M L XL</td>
+                <td>Xanh - Đỏ - Tím</td>
+                <td>
+                    <a href="" class="button-19">Sửa</a>
+                    <a href="" class="button-19">Xóa</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Tee-Shirt Blue V2</td>
+                <td><img src="../images/product-1.jpg" alt="" width="80"></td>
+                <td>180.000đ</td>
+                <td>20</td>
+                <td>M L XL</td>
+                <td>Xanh - Đỏ - Tím</td>
+                <td>
+                    <a href="" class="button-19">Sửa</a>
+                    <a href="" class="button-19">Xóa</a>
+                </td>
+            </tr> -->
+        </table>
+      </div>
+    </section>
+    <script>
+      url = "http://localhost:3000/categories";
+      fetch(url)
+        .then((res) => res.json())
+        .then((listCat) => {
+          listCat.forEach((cat) => {
+            document.querySelector("#list-cat-admin").innerHTML += `<tr>
+                    <td>${cat.name}</td>
+                    <td>
+                        <a href="edit-category.html?id=${cat.id}" class="button-19">Sửa</a>
+                        <a href="#" onclick="delCat(${cat.id})" class="button-19">Xóa</a>
+                    </td>
+                </tr>`;
+          });
+        });
+    </script>
+    <script>
+      // Xóa danh mục
+      function delCat(id) {
+        const question = confirm("You can delete category");
+        if (question == false) return;
+        url = `http://localhost:3000/categories/${id}`;
+        fetch(url, { method: "delete" })
+          .then((res) => res.json())
+          .then((data) => {
+            console.log(data);
+            alert("Đã xóa");
+            document.location = "list-category.html";
+          });
+      }
+    </script>
+    <script>
+      let sidebar = document.querySelector(".sidebar");
+      let closeBtn = document.querySelector("#btn");
+      let searchBtn = document.querySelector(".bx-search");
+
+      closeBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("open");
+        menuBtnChange(); //calling the function(optional)
+      });
+
+      searchBtn.addEventListener("click", () => {
+        // Sidebar open when you click on the search iocn
+        sidebar.classList.toggle("open");
+        menuBtnChange(); //calling the function(optional)
+      });
+
+      // following are the code to change sidebar button(optional)
+      function menuBtnChange() {
+        if (sidebar.classList.contains("open")) {
+          closeBtn.classList.replace("bx-menu", "bx-menu-alt-right"); //replacing the iocns class
+        } else {
+          closeBtn.classList.replace("bx-menu-alt-right", "bx-menu"); //replacing the iocns class
+        }
+      }
+    </script>
+  </body>
+</html>

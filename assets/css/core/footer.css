@@ -1,0 +1,113 @@
+footer{
+    background: #115e5c;
+    color: #fff;
+    margin-top: 50px;
+}
+
+footer .list-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+footer .list-footer h3{
+    margin: 15px 0;
+    font-size: 20px;
+    /* line-height: 26px; */
+}
+
+footer .list-footer p{
+    font-size: 14px;
+    color: #ededed;
+    line-height: 17px;
+    /* margin: 15px 0; */
+}
+
+footer .list-footer .warning{
+    flex: 1;
+}
+footer .list-footer .newleter{
+    flex: 2;
+    display:flex;
+    align-items:center;
+    /* justify-content:center; */
+    flex-direction:column;
+}
+
+footer .list-footer .newleter input{
+    margin: 10px;
+    padding: 15px 50px 15px 15px;
+    border-radius: 15px;
+    color: #121212;
+    letter-spacing: 0.4px;
+    line-height: 21px;
+    text-align: left;
+    box-shadow: #121212 0px 0px 0px 1px;
+    background: #f6f7f9;
+    border: none;
+    outline: none;
+}
+
+footer .list-footer .newleter button{
+    padding: 17px 35px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #fe7c22;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+footer .list-footer .newleter p{
+    max-width: 370px;
+    text-align: center;
+}
+footer .list-footer .link{
+    flex: 1;
+    text-align: right;
+}
+
+footer .list-footer .link ul{
+    list-style: none;
+    text-align: right;
+}
+
+footer .list-footer .link ul li a{
+    color: #ededed;
+    line-height: 9px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+
+
+
+footer .payment{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding-bottom: 80px;
+}
+
+footer .payment h3 span{
+    -webkit-text-fill-color: #105B59;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+
+footer .payment ul{
+    list-style: none;
+    text-align: right;
+    display: flex;
+    gap: 0 10px;
+}
+footer .payment ul li{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+footer .payment p{
+    font-size: 20px;
+    line-height: 26px;
+}

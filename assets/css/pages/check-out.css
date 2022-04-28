@@ -1,0 +1,126 @@
+.check-out {
+    display: flex;
+    gap: 0 100px;
+    padding: 0 9%;
+    margin-top: 180px;
+}
+
+.check-out .info {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+}
+
+.check-out .info p {
+    margin: 30px 0;
+}
+
+.check-out .info form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+}
+
+.check-out .info form input {
+    width: 100%;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    outline: none;
+}
+
+.check-out .info form a {
+    color: #000;
+    margin: 10px 0;
+}
+
+.check-out .total {
+    width: 50%;
+}
+
+.check-out .total .check-out-list {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 0;
+}
+
+.total table{
+    width: 100%;
+}
+
+.total table th{
+    text-align: left;
+    padding: 10px 0;
+}
+.total table td img{
+    max-width: 100px;
+}
+
+.total .total{
+    display: block;
+    margin: 30px 0;
+}
+
+.total .btn-checkout{
+    padding: 15px 20px;
+    background: #fd7f28;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+
+.check-out .total .check-out-voucher {
+    margin: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+
+.check-out .total .check-out-voucher form input {
+    padding: 15px 15px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    outline: none;
+    width: 70%;
+}
+.check-out .info form input:focus,
+.check-out .total .check-out-voucher form input:focus{
+    border: 2px solid #115e5c;
+    transition: all .2s linear;
+}
+
+.check-out .total .check-out-voucher form input[type="submit"] {
+    width: 25%;
+    cursor: pointer;
+    letter-spacing: 0.6px;
+}
+
+.check-out .total .check-out-voucher form input[type="submit"]:hover{
+    background-color: #115e5c;
+    color: #fff;
+    transition: all .2s linear;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #115e5c;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.btn-admin{
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin: 10px 0;
+    cursor: pointer;
+}

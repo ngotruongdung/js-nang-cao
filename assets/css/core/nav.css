@@ -1,0 +1,10 @@
+nav{
+    padding-top: 121px;
+    padding-bottom: 20px;
+}
+nav .menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 14px;
+}
